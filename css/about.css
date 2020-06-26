@@ -1,0 +1,172 @@
+/* css resate  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* how we work */
+
+.howwork{
+
+    position: relative;
+    background: url(/img/s11.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    opacity: 2;
+    color: white !important;
+    font-family: 'Baloo Bhaina 2', cursive;
+
+    
+}
+
+.howwork::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.78);
+    opacity: 0.80;
+    z-index: -1;
+}
+
+.howwork .padd{
+    padding: 5% 0px;
+}
+
+.row-abutL{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    align-items: left;
+}
+
+
+
+.icon-bor-about{
+    width: 50px;
+    height: 50px;
+    background: #f89d13;
+    color: #fff;
+    line-height: 55px;
+    font-weight: 300;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+
+}
+.checked li {
+    position: relative;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    padding-left: 1.3rem;
+}
+
+ul.checked {
+    margin: 10% 0;
+}
+
+.allinfo{
+    padding: 2%;
+}
+
+.checked .chL{
+    display: flex;
+}
+
+.padd {
+    border-bottom: 1px solid #c7c6c6;
+}
+
+
+/* out team */
+
+.mintxt {
+    font-size: .7rem;
+    color: #a9a2a2;
+    margin-bottom: 2%;
+}
+
+.ourteamS{
+    background: #f9f9f9;
+
+}
+
+.ourteamS .allinfo{
+    background: #ffffff;
+    border-radius: 9%;
+    margin: .3rem;
+    box-shadow: 1px 1px 13px -6px;
+    transition: .3s all ease-in-out;
+}
+
+
+
+/* .checked li::before{
+    content: "f00c";
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+/* our history section */
+
+
+.historyS .row {
+    align-items: normal !important;
+}
+
+.conHs{
+    width: 50%;
+    height: auto;
+}
+.historyS .imgHs{
+    width: 100%;
+    height: 100%;
+}
+.imgHs .Himg{
+    width: 100%;
+    height: 100%;
+}
+.history-txt .border-p {
+    align-items: normal;
+    
+}
+
+.Hmrg-b {
+    margin-bottom: 4%;
+    padding: 0% 5% 3% 0%;
+}
+
+.Hic{
+    font-size: 1.5rem;
+}
+
+.Hinfo{
+    width: 50%;
+    height: auto;
+    padding: 2%;
+}
+
+/* utility */
+
+.font_a15{
+    font-size: 1.5rem;
+}
+
+
+/* hover effects */
+
+.ourteamS .allinfo:hover{
+box-shadow: 1px 1px 18px -4px;
+transform: scale(1.02);
+transition: .3s all ease-in-out;
+}

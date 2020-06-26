@@ -1,0 +1,740 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* html{
+    scroll-snap-type: ;
+} */
+
+/* h1{
+    color: red;
+} */
+
+.imgc{
+
+    position: relative;
+
+    background: url(/img/home1.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: 50% 1px;
+    background-attachment: fixed;
+    z-index: 1;
+    opacity: 2;
+
+
+    
+}
+
+.imgc::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0.80;
+    z-index: -1;
+
+}
+
+.contener{
+    margin-left: 4pc;
+    margin-right: 4pc;
+    
+}
+
+/* .navebar{
+    position: fixed;
+
+} */
+
+.logo{
+    display: inline-block;
+    font-family: 'Baloo Bhaina 2', cursive;
+ 
+}
+.logot{
+    font-weight: 500;
+}
+.menu{
+    display: inline-block;
+    width: 86%
+}
+.menu ul{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    text-align: left;
+    margin-right: auto;
+    padding-left: 38%;
+}
+.menu a:focus{
+    color: rgb(250, 164, 3) !important;
+    outline:none;
+}
+.menu a:hover{
+    color: rgb(250, 164, 3) !important;
+}
+.navbar .float-l{
+    float: left;
+}
+.undrnav{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+.undrnav a{
+    padding: 0px 13px;
+}
+
+a{
+    text-decoration: none;
+    /* padding: 0px 13px; */
+    font-size: 14px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.txtcon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 30pc;
+    padding: 0px 9pc;
+
+}
+
+.hommarge{
+    margin-bottom: 3pc;
+}
+.hommarge .btn{
+    line-height: 5;
+
+}
+
+
+/* secund  */
+
+.col{
+    background-color: orange;
+    width: 33.3%;
+    margin-top: -100px;
+    z-index: 2;
+    transition: .3s all ease-in-out;
+}
+
+.col:hover{
+    box-shadow: 1px 1px 18px 8px;
+    z-index: 3;
+    transition: .3s all ease-in-out;
+    transform: scale(1.03);
+}
+.smallcal{
+    margin-left: -2pc;
+    z-index: 1;
+}
+
+.smallcal2{
+    margin-right: -2pc;
+    z-index: 1;
+}
+/* .smallcal:hover{
+
+} */
+
+
+
+.cal-3{
+    background: #e18a07 !important;
+    height: 100%;
+}
+.cal-2{
+    background-color: #343a40!important;
+}
+
+.pad{
+    padding:30px;
+}
+
+.icon-bor{
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        position: relative;
+        border-radius: 50%;
+        margin: 0 auto !important;
+    
+}
+.cl{
+    color: white;
+    font-size: 1.5pc;
+}
+
+.lineH3{
+    margin: 20px 0px;
+}
+
+.sation{
+    margin-bottom: 1.1pc;
+    text-align: left;
+}
+
+
+
+input{
+    width: 100%;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 8px;
+
+}
+
+label{
+    margin-bottom: 6px;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+/* info  */
+
+.mrg-t {
+    margin-top: 5%;
+}
+
+.allinfo{
+    max-width: 32%;
+    margin-bottom: 2%;
+}
+
+.allinfo a:hover{
+    color: rgb(255, 184, 92) !important;
+}
+
+.mrg-l {
+    display: inline-block;
+    margin-left: 16%;
+}
+
+.mrg-lH {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+
+.ic {
+    display: inline-block;
+    /* width: 6%; */
+    font-size: 170%;
+}
+
+
+.sation2 {
+    margin-bottom: 3%;
+}
+
+.padding-b{
+    font-size: .9pc;
+    padding-bottom: .8%;
+}
+
+.border-p {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.border-p::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 80px;
+    height: 3px;
+    background: #f89d13;
+}
+
+.padd {
+    padding: 8% 0px;
+}
+
+/* more info  */
+
+.back-color{
+    background-color: #f8f8f8;
+}
+
+
+
+/* video section  */
+
+#veideo-img{
+    position: relative;
+    background: url(https://www.telegraph.co.uk/content/dam/Travel/2018/December/plane-high-iStock-900763322.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: 50% 1px;
+    background-attachment: fixed;
+    z-index: 1;
+    opacity: 2;
+}
+
+#veideo-img::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0.80;
+    z-index: -1;
+}
+.vconH{
+    height: 30pc;
+}
+
+.vcon{
+    max-width: 65%;
+}
+
+.vcon .h1p{
+    margin-top: 4%;
+}
+
+.vcon .icon-bor{
+    padding-top: 4px;
+    transition: .3s all ease-in-out;
+}
+
+.vcon .icon-bor:hover {
+    width: 14%;
+    height: 80px;
+    padding-top: 2%;
+
+    transition: .3s all ease-in-out;
+}
+
+/* slider  */
+
+.owl-carousel .owl-nav button.owl-next, 
+.owl-carousel .owl-nav button.owl-prev{
+    background: #ccc0c096 !important;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    font-size: 2rem !important;
+    padding-bottom: 0.2% !important;
+    margin: 0px 3%;
+
+}
+
+.Fslide .owl-nav{
+    text-align: center;
+    margin-top: 20px;
+    transition: .3s all ease-in-out;
+}
+
+
+.Fslide .owl-nav button.owl-prev:focus{
+    outline: none !important;
+}
+.Fslide .owl-nav button.owl-next:focus{
+    outline: none !important;
+}
+.Fslide .owl-nav button.owl-next{
+    transition: .6s all ease-in-out;
+}
+.Fslide .owl-nav button.owl-prev{
+    transition: .5s all ease-in-out;
+}
+.Fslide .owl-nav button.owl-prev:active{
+    color: white;
+    background-color: rgb(0, 0, 0) !important;
+    transition: .2s all ease-in-out;
+    
+}
+.Fslide .owl-nav button.owl-next:active{
+    color: white;
+    background-color: rgb(0, 0, 0) !important;
+    transition: .2s all ease-in-out;
+    outline: none !important;
+}
+
+.Fslide .owl-item{
+
+    touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0px !important;
+    height: 20pc !important;
+    width: 295.668px !important;
+}
+
+
+  
+    
+.owl-stage{
+    width: 6645px !important;
+}
+
+.slide-1{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: black;
+
+}
+
+.Fslide .owl-stage-outer {
+    height: 355px !important;
+}
+
+.slide-1:hover .slide-1-text{
+    bottom: 20px;
+    transition: .3s all ease-in-out;
+}
+
+.slide-1:hover .slide-1-text p{
+    opacity: 2.90px;
+    visibility: visible;
+    transition: 1s all ease-in-out;
+
+
+}
+
+.slide-1:hover img{
+    transform: scale(1.09);
+    transition: .3s all ease-in-out;    
+
+}
+
+.img-fluid{
+    height: 350px !important;
+}
+
+
+.slide-1 img{
+    transition: .3s all ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+.slide-1 .slide-1-text{
+    z-index: 2;
+    position: absolute;
+    bottom: -80px;
+    color: #fff;
+    display: block;
+    width: 100%;
+    transition: .3s all ease-in-out;
+
+}
+
+.slide-1 .slide-1-text p{
+    /* opacity: 0; */
+    visibility: hidden;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    color: rgba(255, 255, 255, 0.5);
+} 
+
+.slide-1::after{
+    content: "";
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 87%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.pdin-l-r{
+    padding: 0px 20px;
+
+    margin-bottom: 1pc;
+}
+
+
+/* slide-2  */
+.Sslide {
+    margin-top: 3pc;
+}
+.Sslide .owl-stage-outer {
+    height: 200px;
+}
+.slide-2 .imgs2{
+    height: 5rem;
+    width: auto !important;
+    border-radius: 50%; 
+}
+
+.Sslide .inerdiv{
+    height: 100%;
+    width: auto !important;
+}
+
+/* .divps2 {
+    margin-top: 2pc;
+    color: #b3b3b3;z
+} */
+.divps2 {
+    margin-top: 1.5pc !important;
+    color: #b3b3b3;
+    width: 55%;
+    margin: auto;
+}
+
+/* .slide-2{
+    height: 100%;
+    width: 586px;
+    margin: 0px auto;
+} */
+.Sslide span{
+    width: 25px !important;
+}
+
+.Sslide .active span{
+    background-color:orange !important;
+}
+.Sslide .owl-dots .owl-dot:hover span{
+    background-color:rgb(255, 203, 106) !important;
+}
+
+.Sslide .owl-dots .owl-dot{
+    outline: none;
+}
+/* .Sslide .owl-dots .owl-dot:hover{
+    
+} */
+
+
+.Sslide .owl-dots {
+    margin-top: 20px !important;
+}
+
+
+/* news  */
+
+img.imgnewS{
+    width: 100%;
+    height: 26pc;
+}
+
+.newsS {
+    height: 100%;
+    width: 26pc;
+    margin-right: 4pc;
+}
+.newsS a:hover{
+    color: rgb(255, 202, 103) !important;
+}
+
+.align_l .divps2 {
+    width: 100%;
+}
+
+.align_l{
+    padding-top: 2pc;
+}
+
+.newsS2 {
+    margin: 0;
+}
+span.sdot {
+    font-weight: 900;
+}
+
+.row-news{
+    margin-top: 4pc;
+}
+
+.b-t{
+    border-top: 1px solid #dedede94;
+}
+
+.info-nl {
+    color: #d0cfcf;
+}
+
+/* fooder  */
+
+.bc-b{
+    background-color: #333333;
+}
+
+.foodform{
+    display: flex;
+    width: 8.5pc;
+    transition: .3s all ease-in-out;
+}
+
+.serch:hover .foodform{
+    width:100%;
+    transition: .3s all ease-in-out;
+}
+
+
+.fbar{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+.serch{
+    width: 19pc;
+}
+
+.foodtxt {
+    padding: 0pc 2pc;
+    max-width: 30%;
+}
+
+
+.fa_link{
+ color: rgb(136, 136, 136);
+ padding: .4pc;
+}
+
+footer .copy{
+    color: rgb(136,136,136);
+    padding-top: 4pc;
+    transition: .3s all ease-in-out;
+}
+
+footer a:hover{
+    color: rgb(221, 221, 221);
+}
+
+
+.foodinfo{
+    align-items: baseline !important;
+}
+/* utity classs */
+
+.font-s3{
+    font-size: 14px;
+}
+.h1p{
+
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+
+
+}
+.h2p{
+    font-family: "Poppins", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
+.h3p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+    color: #fff;
+}
+
+.font-f{
+    font-family: "Poppins", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+p{
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.6;
+
+}
+.leter-s{
+    letter-spacing: .1em;
+}
+
+.font-white{
+    color: white;
+}
+
+.font-width{
+    font-weight: bold;
+}
+.upper{
+    text-transform: uppercase;
+
+}
+.center{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+}
+
+.btn{
+    padding: 9px 12%;
+    background: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: .3s all ease-in-out;
+    border: 2px solid orange;
+}
+
+.color-b{
+    color: #4d4d4d;
+}
+ 
+.color-bw{
+    color: rgba(0, 0, 0, 0.5) ;
+}
+
+.color-o{
+    color: #f89d13 !important;
+}
+
+.a-link{
+    color: #f89d13 !important;
+    text-decoration: none;
+}
+
+.alin-left{
+    text-align: left !important;
+}
+
+.font-b{
+    font-family: 'Baloo Bhaina 2', cursive;
+
+
+}
+
+.btn:hover{
+    background: none;
+    border: 2px solid white;
+    color: white;
+    transition: .3s all ease-in-out;
+}
+
+.all-a{
+    display: block;
+    font-weight: 900;
+}

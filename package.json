@@ -1,0 +1,21 @@
+{
+  "name": "logistic-project",
+  "version": "1.0.0",
+  "description": "this is html rendering",
+  "main": "appfor_logictic.js",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19",
+    "nodemailer": "^6.4.10",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "naseem",
+  "license": "ISC"
+}

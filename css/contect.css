@@ -1,0 +1,139 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: none !important;
+    max-width: 100%;
+    align-items: normal;
+}
+
+.border-p {
+    margin-bottom: 2pc;
+    top: -2pc;
+}
+
+
+label{
+    color: black;
+    margin-bottom: 4px;
+    display: inline-block;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.contectS input,textarea{
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    font-family: 'Baloo Bhaina 2', cursive;
+    padding: 8px;
+    outline: none;
+}
+
+
+
+.marg-l{
+    width: 49%;
+}
+
+.contectS {
+    background-color: rgb(239, 239, 239);
+}
+
+.contectS .btn {
+    padding: 9px 2%;
+    background: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: .3s all ease-in-out;
+    border: 2px solid orange;
+    display: block;
+}
+.formcon,.myinfo,.mypera{
+    background-color: white;
+}
+
+.contectS form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formcon {
+    width: 60%;
+    padding: 2pc;
+    margin-right: 1pc;
+    border-radius: 8%;
+    box-shadow: 0px 0px 14px -3px;
+}
+
+
+.firstname{
+    margin-right: 3.8pc;
+}
+
+
+.info-con {
+    width: 35%;
+}
+
+.mergcont {
+    width: 100%;
+    margin-bottom: 1.3pc;
+}
+
+
+input.inputS {
+    width: 100%;
+    
+
+}
+
+.inputl {
+    width: 100%;
+}
+.spadd {
+    width: 44%;
+    display: flex;
+    flex-direction: column
+}
+
+.namecon{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myinfo, .mypera {
+    padding: 1.5pc;
+    border-radius: 8%;
+    box-shadow: 0px 0px 12px -4px;
+}
+
+.mypera {
+    margin-top: 2pc;
+    width: 100%;
+    height: 49%;
+}
+
+.mypera .btn{
+    width: 39%;
+    padding: 0pc;
+    text-align: center;
+}
+
+
+/* hover  */
+
+.contectS .btn:hover{
+    border: 2px solid rgb(54, 54, 54);
+    color: rgb(54, 54, 54);
+    background: transparent;
+}
+
+/* textarea:focus{
+    border-color: orange;
+} */
+
+.contectS input:focus,textarea:focus{
+    border-color: orange;
+}

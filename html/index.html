@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bfb17b817c.js" crossorigin="anonymous"></script>
+    <title>Simpale login</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div id="logcon" class="center" onmouseover="bg_fun()">
+        <div id="user">
+            <img src="/img/user.png" alt="user" id="icon1">
+        </div>
+
+        <h2 class="fonts">Log in :</h2>
+        <form>
+            <div class="con">
+                <i class="far fa-envelope" id="icon2"></i>
+                <input type="email" name="email" id="email" class="fonts" placeholder="Enter your email with @">
+                <div class="bor"></div>
+            </div>
+
+            <div class="con">
+
+                <i class="fas fa-lock-open" data-aos="" id="icon3"></i>
+                <input type="password" name="password" id="pass" class="fonts" placeholder="Entert your password">
+            </div>
+
+            <button type="submit" class="btn">Sing in</button>
+        </form>
+
+    </div>
+    <script>
+        // function changecolor(color) {
+        //     document.getElementsByClassName("change").style.background = color
+        // }
+
+        function bg_fun() {
+            document.body.style.backdrop - filter; blur(9)
+        };</script>
+</body>
+
+</html>

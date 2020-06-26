@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url(/img/bg.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+#logcon{
+    /* border: 2px solid black; */
+    color: white;
+    height: 57vh;
+    margin-left: 12%;
+    margin-top: 13%;
+    width: 35%;
+    border-radius: 10px;
+    border-bottom: 2px solid #8fad8f;
+    border-left: 2px solid #8fad8f;
+    border-right: 2px solid #8fad8f;
+
+}
+
+#logcon:hover{
+    transition: 1s;
+    backdrop-filter: blur(15px);
+}
+
+#icon1{
+    background-color: rgb(215, 219, 220);
+    border-radius: 50px;
+    margin-top: -50px;
+    width: 23%;
+    border: 2px solid #7e637e;
+    filter: invert(1);
+    
+
+}
+
+h2{
+    font-size: 250%;
+    margin: 1pc 1pc;
+    color: #8fad8f;
+    opacity: 0.88;
+    border-bottom: 3px solid;
+    display: inline-block;
+    margin-bottom: 2pc;
+    line-height: 1.9;
+
+}
+
+.fonts{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#user{
+    border: 2px solid #8fad8f;
+    background: #282423;
+    text-align: center;
+    border-radius: 10px;
+}
+
+ input:focus{ 
+    /* transition: 0.5s;
+    border-bottom: 2px solid #8fad8f; */
+    background-color: white;
+} 
+
+#icon2{
+    font-size: 183%;
+
+}
+
+.con{
+    border-bottom:2px solid #8fad8f !important;
+}
+
+i{
+    font-size: 160%;
+    margin: 1.3pc 1pc;
+    color: #8fad8f;
+    margin-right: 1.9pc; 
+}
+
+input{
+    font-size: 129%;
+    padding: 6px;
+    width: 80%;
+    margin: 9px 0px;
+    margin-right: 14px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: black;
+    border-radius: 10px;
+
+}
+
+
+.btn{
+    margin: 1.3pc 1pc;
+    font-size: 129%;
+    padding: 7px 9px;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: 2px solid #8fad8f;
+    width: 22%;
+    color: white;
+    margin-top: 2pc;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #6f7d4b;
+    border-color: white;
+    transition: 1s;
+}
+
+.btn:active{
+    background-color: rgba(255, 253, 253, 0.5);
+    transition: .05s;
+
+}
